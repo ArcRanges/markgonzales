@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Cocogoose';
+    src: url('fonts/Wordmark/Cocogoose-Pro-trial.eot'); /* IE9 Compat Modes */
+ 	src: url('fonts/Wordmark/Cocogoose-Pro-trial.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Wordmark/Cocogoose-Pro-trial.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/Wordmark/Cocogoose.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/Wordmark/Cocogoose-Pro-trial.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/Wordmark/Cocogoose.svg#Cocogoose-Pro-trial') format('svg'); /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+.mark-font {
+	font-family: 'Cocogoose';
+}
+
+/* header mods */
+a.nav-link {
+	font-weight: bold !important;
+	font-size: 1.2em;
+}
